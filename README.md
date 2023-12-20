@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
         numberWrongTxt.text = (allExamples - correctAnswers).toString()
 
         val percentage = if (allExamples > 0) {
-            ((correctAnswers.toInt() / allExamples) * 100).toInt().toString()
+            ((correctAnswers.toDouble() / allExamples) * 100).toInt().toString()
         } else {
             "0"
         }

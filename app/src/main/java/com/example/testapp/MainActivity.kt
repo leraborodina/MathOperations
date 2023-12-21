@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
         percentageCorrectAnswersTxt.text = "$percentage%"
     }
 
-    //сброс полей
+    //сброс полей gj
     private fun resetFields() {
         editNumberTxt.setBackgroundColor(Color.TRANSPARENT)
         editNumberTxt.isEnabled = false
